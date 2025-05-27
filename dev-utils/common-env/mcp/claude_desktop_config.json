@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "jetbrains": {
+      "command": "npx",
+      "args": ["-y", "@jetbrains/mcp-proxy"]
+    },
+    "mcp-obsidian": {
+      "command": "uvx",
+      "args": ["mcp-obsidian"],
+      "env": {
+        "OBSIDIAN_API_KEY": "3e06b17b1b17e8e47f17c08908548d61c84067a00e5ab0a40481606ca9f77306"
+      }
+    }
+  }
+}
